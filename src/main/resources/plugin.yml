@@ -1,0 +1,5 @@
+name: Captcha
+version: '${project.version}'
+main: me.manolo.captcha.Captcha
+author: Manolo
+

@@ -1,0 +1,5 @@
+name: Captcha
+version: '1.0-SNAPSHOT'
+main: me.manolo.captcha.Captcha
+author: Manolo
+
