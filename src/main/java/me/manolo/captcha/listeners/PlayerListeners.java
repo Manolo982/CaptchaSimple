@@ -81,7 +81,7 @@ public class PlayerListeners implements Listener{
                     passed.add(player.getUniqueId());
                     player.getOpenInventory().close();
                     plugin.getServer().getScheduler().cancelAllTasks();
-                    player.sendMessage(CC.translate("&aHas pasado correctamente el captcha"));
+                    player.sendMessage(CC.translate("&aHas pasado correctamente el captcha "));
                 }else{
                     player.kickPlayer(CC.translate("&aCaptcha Incorrect!"));
                 }
